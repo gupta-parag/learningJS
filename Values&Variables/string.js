@@ -31,3 +31,4 @@ console.log("Hoa many letters from 15 th position : ", "abcdefgho".slice(15)); /
 //replace()
 
 console.log("baseball is entertaining".replace("baseball", "home before dark"));
+console.log("ha ha ha".replace("ha", "he")); // replaces only first occurence
