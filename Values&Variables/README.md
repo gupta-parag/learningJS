@@ -16,3 +16,21 @@
 ### IN javascript variables can change their data type
 
     - this means let x = 5; x = 'Jack Sparrow';
+
+### Truthy and Falsy values
+
+    - All values in JS are inherently truthy
+    - Falsy values are :
+        - false
+        - 0
+        -"" (empty string)
+        - null
+        - undefined
+        - NaN
+    - Everything else is truthy!
+
+### Logical Operators
+
+    - AND : &&
+    - OR : ||
+    - NOT : !
