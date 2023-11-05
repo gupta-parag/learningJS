@@ -9,3 +9,10 @@ console.log(" Nums : ", nums);
 console.log(" Nums 2 : ", num2);
 
 // Using const to initiate arrays, as it keeps the memory address constant
+const foods = ["cucumber", "carrot", "ladyfinger"];
+console.log(foods);
+console.log(foods.pop());
+console.log(foods.splice(1, 0, "apple", "papaya"));
+console.log(foods);
+
+//foods = ["pineapple", "watermelon"]; // TypeError: Assignment to constant variable
