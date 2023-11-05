@@ -12,11 +12,14 @@ console.log(shoppingList);
 console.log(shoppingList.shift());
 console.log(shoppingList);
 
-//Entering elements on the first position of the array
+//Entering and deleting elements on the first position of the array
 console.log(shoppingList.unshift("lemon bread"));
 console.log(shoppingList);
-console.log(shoppingList.unshift("pineapple"));
-console.log(shoppingList.unshift("papaya"));
+console.log(shoppingList.unshift("pineapple", "papaya"));
 console.log(shoppingList);
 console.log(shoppingList.shift());
+console.log(shoppingList);
+
+// Using push
+console.log(shoppingList.push("broccoli", "carrot"));
 console.log(shoppingList);
