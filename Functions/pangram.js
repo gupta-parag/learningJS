@@ -15,8 +15,8 @@ function isPangram(sentence) {
   return Object.keys(alphabets).length === 26;
 }
 
-console.log(isPangram("the Quick BROWN fox jumps over the lazy dog"));
-console.log(isPangram("the Quick BROWN fox jumps  lazy dog"));
+// console.log(isPangram("the Quick BROWN fox jumps over the lazy dog"));
+// console.log(isPangram("the Quick BROWN fox jumps  lazy dog"));
 
 function isPangram2(sentence) {
   sentence = sentence.toLowerCase();
